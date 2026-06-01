@@ -74,7 +74,7 @@ const data = [
     },
 ];
 
-export function CarouselHeader() {
+export default function CarouselHeader() {
     const theme = useMantineTheme();
     const mobile = useMediaQuery(`(max-width: ${theme.breakpoints.sm})`);
     const slides = data.map((item) => (
