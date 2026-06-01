@@ -39,7 +39,7 @@ const linksMockdata = [
   'Wiki pages',
 ];
 
-export function DashboardSidebar() {
+export default function DashboardSidebar() {
   const [active, setActive] = useState('Releases');
   const [activeLink, setActiveLink] = useState('Settings');
 

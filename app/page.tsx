@@ -1,6 +1,6 @@
 import { ColorSchemeToggle } from '../components/ColorSchemeToggle/ColorSchemeToggle';
-import { CarouselHeader } from './CarouselHeader/page';
-import { ItemCards } from './ItemCards/page';
+import CarouselHeader from './CarouselHeader/page';
+import ItemCards from './ItemCards/page';
 
 export default function HomePage() {
   return (

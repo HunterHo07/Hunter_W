@@ -11,7 +11,7 @@ const mockdata = [
   { label: 'Electric', icon: IconGasStation },
 ];
 
-export function ItemCards() {
+export default function ItemCards() {
   const features = mockdata.map((feature) => (
     <Center key={feature.label}>
       <feature.icon size="1.05rem" className={classes.icon} stroke={1.5} />

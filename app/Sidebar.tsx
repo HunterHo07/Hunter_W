@@ -1,8 +1,8 @@
 'use client';
 import React, { useState } from 'react';
 import { Button } from '@mantine/core';
-import { DashboardSidebar } from './DashboardSidebar/page';
-import { UserSidebar } from './UserSidebar/page';
+import DashboardSidebar from './DashboardSidebar/page';
+import UserSidebar from './UserSidebar/page';
 import styles from './Layout.module.css'; // Import the CSS module
 
 interface SidebarProps {

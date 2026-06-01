@@ -12,7 +12,7 @@ import {
   rem,
 } from '@mantine/core';
 import { IconBulb, IconUser, IconCheckbox, IconSearch, IconPlus } from '@tabler/icons-react';
-import { UserButton } from './UserButton/page';
+import UserButton from './UserButton/page';
 import classes from './NavbarSearch.module.css';
 
 const links = [
@@ -33,7 +33,7 @@ const collections = [
   { emoji: '💁‍♀️', label: 'Customers' },
 ];
 
-export function UserSidebar() {
+export default function UserSidebar() {
   const mainLinks = links.map((link) => (
     <UnstyledButton key={link.label} className={classes.mainLink}>
       <div className={classes.mainLinkInner}>
